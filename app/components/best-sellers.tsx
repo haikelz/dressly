@@ -12,7 +12,7 @@ export default function BestSellers() {
           See All
         </span>
       </div>
-      <div className="flex space-x-4 overflow-x-scroll w-full md:overflow-x-visible mt-4">
+      <div className="flex space-x-4 overflow-x-auto w-full md:overflow-x-visible mt-4">
         <div className="p-2 w-full rounded-md border-background-900 hover:scale-105 transition-all cursor-pointer border-2">
           <img
             className="w-[200px] h-[150px] md:w-full md:h-[255px]"

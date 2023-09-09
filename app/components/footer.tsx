@@ -17,7 +17,7 @@ export default function Footer() {
             provide our customers with a pleasant and easy shopping experience.
           </Paragraph>
         </div>
-        <div className="w-full md:ml-24 md:flex">
+        <div className="w-full xl:ml-24 md:flex">
           <div className="w-full flex md:flex-row md:space-x-16 flex-col py-6 md:py-0">
             <div>
               <span className="text-neutral-900 font-ubuntu font-medium text-base">
