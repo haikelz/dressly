@@ -1,4 +1,6 @@
-## TODO
+<div align="center">
+  <h1>Dressly</h1>
+  <p>Slicing UI Design: Dressly</p>
+</div>
 
-- Order step, gimana cara bikin garis putus-putusnya(?)
-- Responsive desktop
+## Screenshots

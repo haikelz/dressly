@@ -25,16 +25,14 @@ export function headers({
 export default function Index() {
   return (
     <div className="flex w-full flex-col justify-center items-center">
-      <main className="flex justify-center items-center max-w-7xl flex-col w-full p-4">
-        <Navbar />
-        <Banner />
-        <BrandsList />
-        <TopSelections />
-        <BestSellers />
-        <OrderStep />
-        <Newsletter />
-        <Footer />
-      </main>
+      <Navbar />
+      <Banner />
+      <BrandsList />
+      <TopSelections />
+      <BestSellers />
+      <OrderStep />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
