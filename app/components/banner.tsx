@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <section className="w-full md:py-16 flex justify-center items-center flex-col md:space-x-4 md:flex-row-reverse">
       <img
-        className="w-full md:w-[598px] md:h-[550px]"
+        className="w-full lg:w-[598px] lg:h-[550px]"
         src="/hero.png"
         alt="hero"
       />
