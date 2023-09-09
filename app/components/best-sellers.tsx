@@ -12,8 +12,8 @@ export default function BestSellers() {
           See All
         </span>
       </div>
-      <div className="flex space-x-4 overflow-x-scroll md:overscroll-x-none w-full overflow-hidden mt-4">
-        <div className="p-4 w-full rounded-md border-background-900 border-2">
+      <div className="flex space-x-4 overflow-x-scroll w-full md:overflow-x-visible mt-4">
+        <div className="p-4 w-full rounded-md border-background-900 hover:scale-105 transition-all cursor-pointer border-2">
           <img className="w-full" src="/sneaker.png" alt="sneaker" />
           <div className="mt-4">
             <h4 className="font-ubuntu font-medium text-xl">Sneaker</h4>
@@ -31,7 +31,7 @@ export default function BestSellers() {
             </div>
           </div>
         </div>
-        <div className="p-4 w-full rounded-md border-background-900 border-2">
+        <div className="p-4 w-full rounded-md border-background-900 hover:scale-105 transition-all cursor-pointer border-2">
           <img className="w-full" src="/womens-robes.png" alt="women's robes" />
           <div className="mt-4">
             <h4 className="font-ubuntu font-medium text-xl">
@@ -51,7 +51,7 @@ export default function BestSellers() {
             </div>
           </div>
         </div>
-        <div className="p-4 w-full rounded-md border-background-900 border-2">
+        <div className="p-4 w-full rounded-md border-background-900 hover:scale-105 transition-all cursor-pointer border-2">
           <img className="w-full" src="/bag.png" alt="bag" />
           <div className="mt-4">
             <h4 className="font-ubuntu font-medium text-xl">Bag</h4>
@@ -69,7 +69,7 @@ export default function BestSellers() {
             </div>
           </div>
         </div>
-        <div className="p-4 w-full rounded-md border-background-900 border-2">
+        <div className="p-4 w-full rounded-md border-background-900 hover:scale-105 transition-all cursor-pointer border-2">
           <img className="w-full" src="/mens-robes.png" alt="men's robes" />
           <div className="mt-4">
             <h4 className="font-ubuntu font-medium text-xl">
