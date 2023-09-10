@@ -5,8 +5,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <header className="w-full flex sticky top-0 justify-center items-center">
-      <nav className="w-full max-w-7xl bg-white p-4 z-10">
+    <header className="w-full flex sticky bg-white/70 backdrop-blur-md top-0 z-10 justify-center items-center">
+      <nav className="w-full max-w-7xl p-4">
         <div className="hidden md:flex justify-between items-center">
           <div className="flex justify-center items-center space-x-2 w-fit">
             <img src="/logo.svg" alt="logo" />
@@ -57,7 +57,9 @@ export default function Navbar() {
           <Link to="/">
             <div className="space-x-2 flex">
               <img src="/logo.svg" alt="logo" />
-              <span className="text-neutral-900 text-2xl">DressLy</span>
+              <span className="text-neutral-900 font-lora font-semibold text-2xl">
+                DressLy
+              </span>
             </div>
           </Link>
           <button type="button" aria-label="bag">
@@ -65,7 +67,7 @@ export default function Navbar() {
           </button>
         </div>
         {isOpen ? (
-          <div className="pt-5 pb-2">
+          <div className="pt-5 md:hidden">
             <ul className="space-y-5">
               <li>
                 <span className="font-semibold font-poppins text-base leading-relaxed">

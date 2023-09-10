@@ -8,12 +8,13 @@ export default function BestSellers() {
           <h2 className="font-lora font-semibold text-2xl md:text-5xl leading-relaxed text-neutral-900">
             Bestsellers
           </h2>
-          <span
-            role="button"
-            className="text-neutral-900 bg-primary-500 py-2 px-4 rounded-md text-sm font-semibold font-ubuntu leading-relaxed"
+          <button
+            type="button"
+            aria-label="see all"
+            className="md:text-neutral-900 text-primary-500 md:bg-primary-500 py-2 px-6 rounded-md text-sm font-semibold font-poppins md:font-ubuntu leading-relaxed"
           >
             See All
-          </span>
+          </button>
         </div>
         <div className="flex space-x-4 overflow-x-auto w-full mt-4">
           <div className="p-3 w-full rounded-md border-background-900 border-2">

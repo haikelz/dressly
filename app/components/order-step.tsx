@@ -47,10 +47,10 @@ export default function OrderStep() {
               </div>
             </div>
             <div className="md:flex text-sm font-ubuntu font-normal tracking-wide text-center mt-4 hidden w-[500px] justify-between">
-              <span>Select Product</span>
-              <span>Login/Register</span>
-              <span>Shopping bag</span>
-              <span>Payment</span>
+              <span className="-translate-x-1">Select Product</span>
+              <span className="-translate-x-4">Login/Register</span>
+              <span className="-translate-x-5">Shopping bag</span>
+              <span className="-translate-x-4">Payment</span>
             </div>
             <div className="flex space-x-4 md:space-x-0 justify-center md:flex-col flex-row items-center"></div>
             <div className="flex flex-row md:flex-col justify-center items-center space-x-4 md:space-x-0 w-fit"></div>
