@@ -5,7 +5,7 @@ export default function TopSelections() {
     <Layout>
       <section className="w-full py-8 md:py-20">
         <div className="w-full flex justify-start items-start flex-col">
-          <h2 className="text-neutral-900 text-2xl font-semibold font-lora md:text-5xl">
+          <h2 className="text-neutral-900 text-2xl text-start font-semibold font-lora md:text-5xl">
             Top Selections
           </h2>
           <div className="flex mt-6 flex-col sm:overflow-x-auto sm:flex-row w-full space-y-6 sm:space-y-0 sm:space-x-6">
